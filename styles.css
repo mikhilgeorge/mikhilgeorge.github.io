@@ -26,3 +26,8 @@ body{background:#0d121b;color:#bfc8d7}header{background:#101722;border-color:#25
 .home-projects .card .label{font-size:11px}
 @media(max-width:700px){.outcomes{gap:12px}.project-snapshot{padding:19px}.project-dek{font-size:16px}.outcome strong{font-size:20px}.outcome span{font-size:12px}.site-header .links{gap:11px;font-size:12px}}
 @media(max-width:460px){.outcomes{grid-template-columns:1fr}.outcome{padding-top:10px}}
+
+/* Footer-free layout: leave room after the final controls on every page. */
+main{padding-bottom:64px}
+main.other-page{padding-bottom:88px}
+@media(max-width:700px){main{padding-bottom:48px}main.other-page{padding-bottom:72px}}

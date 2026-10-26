@@ -22,3 +22,7 @@ The navigation expects a file named `MikhilGeorgeEdattel_MechanicalEngineer_Resu
 - Restored the description of the 0.95 mm Toyota flange as having the lowest peak forces and the most consistent force profile, based on the project owner’s confirmation.
 - Removed the top navigation header and bottom footer from `other-projects.html`; its existing back-to-projects navigation remains.
 - Cooper Standard publication approval was confirmed by the project owner.
+
+
+## Layout update
+All pages have no top navigation header or footer. Other Projects has extra breathing room after the Featured Projects button. Replace the HTML and styles.css files together to get the spacing change. Keep your existing assets/ directory and resume PDF.
