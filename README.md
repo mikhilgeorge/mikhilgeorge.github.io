@@ -1,28 +1,20 @@
-# Mechanical Engineering Portfolio
+# Engineering Portfolio — Final GitHub Pages Files
 
-Static GitHub Pages portfolio for Mikhil George Edattel.
+## Installation
+Replace the HTML and `styles.css` files at the **root** of your GitHub Pages repository. Do not upload them into a new subfolder. Keep your existing `assets/` directory and `MikhilGeorgeEdattel_MechanicalEngineer_Resume.pdf` at the root. If your resume PDF has a different filename, update the links in `index.html` and `contact.html`.
 
-## Deploy
+The homepage and all detail pages have **no site header or footer**. Project pages retain a simple back link. Other Projects is a single overview page with **no project-detail links** and comfortable bottom spacing; the older standalone `air-quality.html` is retained only for backwards compatibility.
 
-Open the `portfolio_refresh` folder inside the ZIP and copy its HTML files and `styles.css` to your repository root (not the enclosing folder). **Keep your existing `assets/` directory, images, videos, and resume PDF unchanged.** GitHub Pages will publish the changes after you commit and push.
+## Verified from supplied source files
+- Consistency with the supplied October 25, 2026 final resume for the Rover, Toyota simulation, Marble Maze, and portable FRJS claims.
+- Approved homepage introduction and 12 skill tags unchanged.
+- FRJS comparative enclosed-test result 85% to 95% is clearly distinguished from full integrated-device validation.
+- Toyota 0.95 mm conclusion retains the described most-consistent force profile and is labeled a recommendation, not an implemented production change.
+- Confirmed owner-provided Cooper Standard permission to publish the project/figures.
 
-The navigation expects a file named `MikhilGeorgeEdattel_MechanicalEngineer_Resume.pdf` at the site root. Make sure that is your current, approved resume.
-
-`Other Projects` remains a single overview page with no project detail links. The preexisting `air-quality.html` is retained only so old direct links do not break.
-
-## Important checks before publishing
-
-1. Ensure you have permission to publish any employer/customer FEA images, dimensions, data, or logos used on the seal page. Remove or replace material that is not approved for public release.
-2. Confirm the FRJS drive type and the exact test configuration for the reported 95% collection-efficiency measurement. Text intentionally avoids overstating full integrated-device testing.
-3. Confirm the 20+ tests, rover results, and ±20° maze travel against your lab and team records.
-4. Check referenced `assets/` media and test all pages on desktop and mobile.
-5. The contents of `assets/` were not included with the uploaded HTML files; this update deliberately reuses their original relative paths.
-
-## Latest requested changes
-- Restored the description of the 0.95 mm Toyota flange as having the lowest peak forces and the most consistent force profile, based on the project owner’s confirmation.
-- Removed the top navigation header and bottom footer from `other-projects.html`; its existing back-to-projects navigation remains.
-- Cooper Standard publication approval was confirmed by the project owner.
-
-
-## Layout update
-All pages have no top navigation header or footer. Other Projects has extra breathing room after the Featured Projects button. Replace the HTML and styles.css files together to get the spacing change. Keep your existing assets/ directory and resume PDF.
+## Final manual checks after deployment
+1. Load the actual GitHub Pages URL in a private window or with a hard refresh; web indexing can lag behind the repository.
+2. Check all `assets/` image and video paths and resume PDF file existence. These media files were not provided with the website source upload.
+3. Review the FRJS test comparison (85% vs 95%) and drive configuration against the precise test notes and physical device.
+4. Check the employer release covers the exact current versions of all published figures/plots.
+5. Test desktop and phone viewport, especially image sizes, card spacing, videos, and bottom padding.

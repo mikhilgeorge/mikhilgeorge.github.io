@@ -31,3 +31,7 @@ body{background:#0d121b;color:#bfc8d7}header{background:#101722;border-color:#25
 main{padding-bottom:64px}
 main.other-page{padding-bottom:88px}
 @media(max-width:700px){main{padding-bottom:48px}main.other-page{padding-bottom:72px}}
+
+/* Final page spacing: no site headers or footers. */
+.other-page .buttons{margin-bottom:28px}
+@media(max-width:700px){.other-page .buttons{margin-bottom:22px}}
