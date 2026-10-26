@@ -4,7 +4,7 @@ Static GitHub Pages portfolio for Mikhil George Edattel.
 
 ## Deploy
 
-Copy the HTML files and `styles.css` in this directory over the same files at your repository root. **Keep your existing `assets/` directory, images, videos, and resume PDF unchanged.** GitHub Pages will publish the changes after you commit and push.
+Open the `portfolio_refresh` folder inside the ZIP and copy its HTML files and `styles.css` to your repository root (not the enclosing folder). **Keep your existing `assets/` directory, images, videos, and resume PDF unchanged.** GitHub Pages will publish the changes after you commit and push.
 
 The navigation expects a file named `MikhilGeorgeEdattel_MechanicalEngineer_Resume.pdf` at the site root. Make sure that is your current, approved resume.
 
@@ -17,3 +17,8 @@ The navigation expects a file named `MikhilGeorgeEdattel_MechanicalEngineer_Resu
 3. Confirm the 20+ tests, rover results, and ±20° maze travel against your lab and team records.
 4. Check referenced `assets/` media and test all pages on desktop and mobile.
 5. The contents of `assets/` were not included with the uploaded HTML files; this update deliberately reuses their original relative paths.
+
+## Latest requested changes
+- Restored the description of the 0.95 mm Toyota flange as having the lowest peak forces and the most consistent force profile, based on the project owner’s confirmation.
+- Removed the top navigation header and bottom footer from `other-projects.html`; its existing back-to-projects navigation remains.
+- Cooper Standard publication approval was confirmed by the project owner.
